@@ -1,0 +1,1 @@
+# AWS Bedrock Agentcore Memory for short-term and long-term memory

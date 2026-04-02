@@ -1,0 +1,411 @@
+{
+  "title": "SHU Supplementary Knowledge Base",
+  "description": "Non-course information for Sheffield Hallam University RAG assistant. Covers fees, funding, accommodation, admissions, international student guides, student life, support services, and key contacts.",
+  "version": "1.0",
+  "last_verified": "March 2026",
+  "total_chunks": 23,
+  "categories": [
+    "university_overview",
+    "campus_life",
+    "admissions",
+    "fees_funding",
+    "accommodation",
+    "international",
+    "student_support",
+    "student_life",
+    "contacts"
+  ],
+  "chunks": [
+    {
+      "chunk_id": "s0000",
+      "chunk_type": "overview",
+      "category": "university_overview",
+      "subcategory": "general",
+      "title": "Sheffield Hallam University — overview",
+      "text": "Sheffield Hallam University (SHU) is one of the UK's largest universities, located in Sheffield, South Yorkshire.\n\nKey facts (verified March 2026):\n- Founded: 1843 (as Sheffield School of Design), gained university status 1992\n- Students: approx. 34,000 students including 5,000+ international students\n- Staff: approx. 4,000\n- TEF Rating: Gold (2023 Teaching Excellence Framework)\n- QS Stars: 5-Star Excellence Rating\n- Ranking: Top 10 UK student city (Uni Compare 2025)\n- Graduate outcomes: 95% of graduates in work or further study (Graduate Outcomes Survey 2022/23)\n- UCAS institution code: S21\n\nCampuses:\n1. City Campus — Howard Street, Sheffield, S1 1WB (main campus, city centre)\n2. Collegiate Campus — Psalter Lane, Sheffield, S11 8UZ (south of city)\n3. Sheffield Hallam in London — Brent Cross Town (new campus opening)\n\nContact:\n- General enquiries: +44 (0)114 225 5555\n- Email: enquiries@shu.ac.uk\n- Website: www.shu.ac.uk\n- MyHallam portal: myhallam.shu.ac.uk\n\nMission: \"Learn and Serve\" — committed to transforming lives through education and research.",
+      "source_url": "https://www.shu.ac.uk/about-us/who-we-are",
+      "metadata": {
+        "category": "university_overview",
+        "subcategory": "general",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0001",
+      "chunk_type": "overview",
+      "category": "university_overview",
+      "subcategory": "awards",
+      "title": "SHU awards and rankings",
+      "text": "Sheffield Hallam University awards and rankings (2025/26):\n\nTeaching:\n- TEF Gold rating (2023) — highest possible rating for teaching quality and student outcomes\n- 91% postgraduate computing students satisfied with teaching (PG Taught Satisfaction Survey 2025)\n\nStudent experience:\n- Top 10 UK student city — Uni Compare 2025\n- 5-Star QS Excellence Rating\n- Sheffield ranked one of the most affordable student cities in the UK (NatWest Student Living Index 2023)\n\nGraduate outcomes:\n- 95% graduates in work or further study within 15 months of graduating\n- 94% UK graduates employed or in further study (2022/23 Graduate Outcomes Survey)\n\nResearch:\n- Multiple REF-rated research centres\n- Award for Outstanding Research Environment (AWRC) in sport and physical activity\n- Helena Kennedy Centre for International Justice (nationally recognised in law and criminology)\n- Materials and Engineering Research Institute (MERI)",
+      "source_url": "https://www.shu.ac.uk/study-here/studying-with-us/awards-ratings-and-rankings",
+      "metadata": {
+        "category": "university_overview",
+        "subcategory": "awards",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0002",
+      "chunk_type": "campus",
+      "category": "campus_life",
+      "subcategory": "city_campus",
+      "title": "City Campus — guide",
+      "text": "City Campus is the main Sheffield Hallam campus, located in the heart of Sheffield city centre.\n\nAddress: Howard Street, Sheffield, S1 1WB\n\nKey buildings:\n- Owen Building — main teaching building, lecture theatres\n- Adsetts Centre — main library, open 24 hours during term time, 1,200+ study spaces\n- Eric Mensforth Building — engineering labs, workshops\n- Heart of the Campus (Heart) — student hub, café, social spaces\n- Hallam Square — outdoor social space, events\n- Cantor Building — art, design, creative facilities\n- Robert Winston Building — science labs\n- Pennine Lecture Theatre — large capacity events\n\nFacilities:\n- Multiple cafés and restaurants including Hallam Café\n- Hallam Help desk (student services, enrolment, ID cards)\n- Students' Union (new HQ opening 2025/26)\n- Sport Hallam gym\n- On-site pharmacy and medical centre nearby\n- 24-hour security\n\nTransport:\n- Sheffield Supertram: City Hall stop (2 min walk)\n- Sheffield train station: 10 min walk\n- Bus: multiple routes serve Howard Street\n- Parking: limited on-site, NCP car parks nearby",
+      "source_url": "https://www.shu.ac.uk/study-here/studying-with-us/our-campuses/city-campus-tour",
+      "metadata": {
+        "category": "campus_life",
+        "subcategory": "city_campus",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0003",
+      "chunk_type": "campus",
+      "category": "campus_life",
+      "subcategory": "collegiate_campus",
+      "title": "Collegiate Campus — guide",
+      "text": "Collegiate Campus is a leafy, quieter campus in the south of Sheffield.\n\nAddress: Psalter Lane, Sheffield, S11 8UZ\n\nKey departments based at Collegiate:\n- Health and Social Care (nursing, midwifery, paramedic science, physiotherapy, radiotherapy)\n- Education and Childhood Studies\n- Social Work\n\nKey buildings:\n- Heart of the Campus building — teaching and social hub\n- Collegiate Library\n- Clinical simulation suites (nursing, midwifery, paramedic)\n- Sports therapy and rehabilitation labs\n\nFacilities:\n- Café\n- Quiet study spaces\n- Sport Hallam gym\n- Secure bike storage\n\nDistance from City Campus: approximately 2 miles (30 min walk, 15 min by bus)\n\nTransport:\n- Bus: Route 97 / 98 from city centre to Psalter Lane (15 min)\n- Cycling: dedicated cycle lane from city centre\n- Car parking: available on campus",
+      "source_url": "https://www.shu.ac.uk/study-here/studying-with-us/our-campuses/collegiate-campus-tour",
+      "metadata": {
+        "category": "campus_life",
+        "subcategory": "collegiate_campus",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0004",
+      "chunk_type": "campus",
+      "category": "campus_life",
+      "subcategory": "sheffield_city",
+      "title": "Sheffield city — student guide",
+      "text": "Sheffield is one of the UK's best student cities. Key facts for students:\n\nCost of living:\n- Sheffield is one of the cheapest UK cities for student accommodation (Cushman & Wakefield 2021)\n- Named top 10 most affordable student cities (NatWest Student Living Index 2023)\n- Sheffield students have the highest monthly income from term-time work averaging £223 (NatWest 2022)\n- Average weekly grocery spend: £25–£40\n- Average meal out: £8–£15\n- Monthly bus pass (Travelmaster): approx. £52\n\nPopular student areas:\n- Broomhall / Broomhill (S3 / S10): 10–15 min walk from City Campus, popular with students\n- Ecclesall Road (S11): vibrant area with cafés, restaurants, bars\n- Crookes / Walkley (S10): quieter, slightly cheaper rents\n- Hunter's Bar (S11): close to Collegiate Campus\n- City Centre (S1): most convenient for City Campus students\n\nTransport:\n- Sheffield Supertram: 3 lines covering the city, student day ticket approx. £3\n- Buses: Stagecoach and First buses, Travelmaster pass covers both\n- Train: frequent services to Leeds (55 min), Manchester (55 min), London (2h 10min)\n- 16–25 Railcard: £30/year saves 1/3 on train fares\n\nNature:\n- Peak District National Park: 30 min from city centre by bus\n- 150+ parks and green spaces within Sheffield\n- Sheffield has more trees per person than any other UK city\n\nCulture:\n- Crucible Theatre (home of World Snooker Championship)\n- Millennium Gallery, Graves Gallery (free museums)\n- O2 Academy, Leadmill (live music venues)\n- Kelham Island Museum, Abbeydale Industrial Hamlet\n- Independent cafés, record shops, vintage stores on Division Street and Sharrow Vale Road",
+      "source_url": "https://www.shu.ac.uk/study-here/sheffield",
+      "metadata": {
+        "category": "campus_life",
+        "subcategory": "sheffield_city",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0005",
+      "chunk_type": "admissions",
+      "category": "admissions",
+      "subcategory": "undergraduate",
+      "title": "Undergraduate application guide",
+      "text": "How to apply for undergraduate courses at Sheffield Hallam University:\n\nApplication route:\n- Apply through UCAS (Universities and Colleges Admissions Service) at ucas.com\n- SHU UCAS institution code: S21\n- Most undergraduate courses: apply by January 29 each year (Equal Consideration Deadline)\n- Art, design and performance courses: check individual course deadlines\n- Late applications: accepted after January deadline if places remain\n\nUCAS application steps:\n1. Register at ucas.com and create your account\n2. Search for your course using SHU's UCAS code S21\n3. Write your personal statement (4,000 characters, explains why you want to study the subject)\n4. Get a reference from a teacher or advisor\n5. Pay UCAS application fee (£28.50 for multiple choices, £24 for single choice)\n6. Submit your application\n\nAfter applying:\n- SHU will send a decision: unconditional offer, conditional offer, or rejection\n- Conditional offers: typically require specific A-level grades or equivalent\n- Accept your firm choice by the UCAS reply deadline (usually May)\n- Contextual offers: SHU may make lower offers to students from disadvantaged backgrounds via Hallam Progress\n\nClearing:\n- Priority Clearing opens July 2026\n- Available if you don't hold an offer, don't meet conditions, or are applying after deadline\n- Call SHU's Clearing hotline: 0114 225 5550 (from July)\n- Visit shu.ac.uk/clearing for current vacancies\n\nEntry requirements:\n- Vary by course — check individual course pages\n- Typical UG range: 96–144 UCAS points (roughly BBC to AAA at A-level)\n- Equivalent qualifications accepted: BTEC, T-Levels, Access to HE, Scottish Highers, Irish Leaving Certificate, IB\n- English language: GCSE Grade 4 (C) or equivalent required for home students\n\nTransfer students:\n- Can apply to transfer from another university — email enquiries@shu.ac.uk\n- Credit transfer from prior learning may be considered",
+      "source_url": "https://www.shu.ac.uk/study-here/apply/undergraduate",
+      "metadata": {
+        "category": "admissions",
+        "subcategory": "undergraduate",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0006",
+      "chunk_type": "admissions",
+      "category": "admissions",
+      "subcategory": "postgraduate",
+      "title": "Postgraduate application guide",
+      "text": "How to apply for postgraduate courses at Sheffield Hallam University:\n\nApplication route:\n- Apply directly through SHU's online application portal (not UCAS)\n- Apply at: shu.ac.uk/study-here/apply/postgraduate\n- No firm deadline for most taught postgraduate courses — apply early as places are limited\n- Rolling admissions: applications reviewed as they arrive\n\nRequirements typically needed:\n- Undergraduate degree (usually 2:1 or above for most courses)\n- Personal statement explaining motivation and relevant experience\n- Two academic or professional references\n- Transcript of undergraduate grades\n- English language evidence (if applicable)\n\nFor international students:\n- Additional documents may be required: qualifications assessment, IELTS scores\n- CAS number issued after offer accepted and deposit paid\n\nPhD / Research degrees:\n- Apply through shu.ac.uk/research/degrees\n- Requires research proposal (1,000–2,000 words)\n- Contact potential supervisors before applying\n- Funding options: self-funded, SHU scholarships, UKRI funding, industrial partnerships\n\nApprenticeships:\n- Higher and Degree Apprenticeships available — employer must apply on your behalf\n- Covers nursing, social work, business, computing, engineering and more\n- No tuition fees for apprentices — employer and government co-fund\n\nPostgraduate loan (UK students):\n- Up to £13,459 available from Student Finance England for taught masters\n- Repaid when earning over £21,000/year (6% above threshold)",
+      "source_url": "https://www.shu.ac.uk/study-here/apply/postgraduate",
+      "metadata": {
+        "category": "admissions",
+        "subcategory": "postgraduate",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0007",
+      "chunk_type": "fees",
+      "category": "fees_funding",
+      "subcategory": "tuition_fees",
+      "title": "Tuition fees 2025/26 and 2026/27",
+      "text": "Sheffield Hallam University tuition fees (verified March 2026):\n\nUNDERGRADUATE FEES:\n\n2025/26 entry:\n- Home students (standard year): £9,535 per year\n- International students: £17,155 – £19,155 per year (varies by course)\n- Placement/sandwich year: reduced fee, capped at maximum 20% of standard year fee\n\n2026/27 entry:\n- Home students: TBC (awaiting government confirmation)\n- International students: £18,000 – £20,000 per year (varies by course)\n- Placement year: reduced fee, capped at 20% of standard year fee\n\nFee status:\n- Home fee status: UK nationals, Irish nationals, EU/EEA/Swiss nationals with settled or pre-settled status\n- International fee status: all others (unless meeting specific criteria)\n- Check fee status via UKCISA fee status guide at ukcisa.org.uk\n\nPOSTGRADUATE FEES:\n- UK home students: typically £9,500 – £12,000 per year for taught masters\n- International students: typically £15,000 – £20,000 per year\n- Part-time: fees usually 50–60% of full-time rate per year\n- Check individual course pages for exact fees\n\nNOTES:\n- Fees are subject to government policy and may change year-on-year\n- International fees are the same for each year of your course\n- Additional course costs (books, materials, field trips) vary — check course pages\n- Sheffield is one of the cheapest UK cities for living costs",
+      "source_url": "https://www.shu.ac.uk/study-here/undergraduate/fees",
+      "metadata": {
+        "category": "fees_funding",
+        "subcategory": "tuition_fees",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0008",
+      "chunk_type": "fees",
+      "category": "fees_funding",
+      "subcategory": "student_loans",
+      "title": "UK student loans — how they work",
+      "text": "Student loans for UK/home students at Sheffield Hallam (2025/26):\n\nUNDERGRADUATE TUITION FEE LOAN:\n- Amount: covers full tuition fee (up to £9,535 in 2025/26)\n- You do NOT pay fees upfront — loan paid directly to the university\n- Apply through: Student Finance England (studentfinance.service.gov.uk)\n- Application deadline: approx. 9 months before course start\n\nUNDERGRADUATE MAINTENANCE LOAN:\n- Amount: up to £13,762/year (2025/26) depending on household income and where you study\n- London students receive more; students living at home receive less\n- Paid directly to your bank account in 3 instalments each year\n- Amount means-tested on parental/household income\n\nREPAYMENT (Plan 5 — for students starting 2023 or later):\n- Start repaying: April after you graduate, IF earning over £25,000/year\n- Rate: 9% of earnings above £25,000\n- Example: earning £30,000 = repay 9% of £5,000 = £450/year = £37.50/month\n- Written off: after 40 years regardless of balance\n- Interest: RPI + up to 3% while studying, then RPI + 0% – 3% after graduation\n\nPOSTGRADUATE LOAN:\n- Amount: up to £13,459 for taught masters\n- Repay: when earning over £21,000/year at 6% of earnings above threshold\n- Written off: 30 years after first repayment due\n\nAPPLY:\n- studentfinance.service.gov.uk\n- Apply as early as possible — takes 4–6 weeks to process",
+      "source_url": "https://www.shu.ac.uk/study-here/undergraduate/loans",
+      "metadata": {
+        "category": "fees_funding",
+        "subcategory": "student_loans",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0009",
+      "chunk_type": "fees",
+      "category": "fees_funding",
+      "subcategory": "scholarships",
+      "title": "Scholarships and bursaries at SHU",
+      "text": "Sheffield Hallam University scholarships and bursaries (21 schemes available, March 2026):\n\nFOR INTERNATIONAL STUDENTS:\n1. Transform Together Scholarships — discounted fees for high-achieving international UG and PG students\n2. Vice-Chancellor's Award — financial help for international students starting at SHU\n3. GREAT Scholarships — UK government-funded scholarships for specific countries (PG only)\n4. Chevening Scholarships — UK government fully-funded PG scholarships (apply separately at chevening.org)\n5. Joyce Spurr Art Travel Fund — for fine art students (UG and PG) to visit exhibitions\n6. Performance Athlete Support Programme — for elite athletes (UG, PG, home and international)\n\nFOR UK HOME STUDENTS:\n7. Student Success Scholarship — up to £2,100/year for students from lower-income households\n8. Care Leaver Package — enhanced financial support for students leaving local authority care (free accommodation in first year, bursary, named support contact)\n9. Heller Bursary — Sir Michael & Lady Morven Heller fund for 2nd year UG students to pursue passions\n10. Placement Bursary — financial support during work placements\n11. Donor-Funded Scholarships — various scholarships from SHU supporters\n12. Alumni Scholarship — discount on PG fees for SHU graduates (home students)\n\nGOVERNMENT GRANTS:\n- NHS Learning Support Fund: £5,000+/year for eligible nursing, midwifery, AHP students\n- PGCE bursaries: up to £24,000 for shortage subjects (physics, chemistry, maths)\n- Disabled Students Allowance (DSA): up to £26,291/year for students with disabilities or mental health conditions\n\nUse the Scholarship and Bursary Finder: unihub.shu.ac.uk\nContact: hallam.help@shu.ac.uk for individual financial queries",
+      "source_url": "https://www.shu.ac.uk/funding/scholarships-and-bursaries",
+      "metadata": {
+        "category": "fees_funding",
+        "subcategory": "scholarships",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0010",
+      "chunk_type": "accommodation",
+      "category": "accommodation",
+      "subcategory": "halls",
+      "title": "SHU halls of residence — overview",
+      "text": "Sheffield Hallam University halls of residence (2025/26):\n\nGUARANTEE:\nAll full-time undergraduate students who firm SHU as their first choice are GUARANTEED an offer of accommodation in halls for their first year.\n\nOVERVIEW:\n- 11 halls of residence properties\n- All within walking distance of both campuses\n- All bills included (gas, electricity, water, Wi-Fi, contents insurance)\n- No hidden costs\n- Weekly prices: £81 – £185 per week (2025/26)\n- All registered with the Snug housing scheme (quality standard)\n- 24-hour security and residential support team\n- Applications open for September 2026 intake\n\nSTANDARD ROOM FEATURES:\n- Single bed with mattress\n- Wardrobe and drawers\n- Desk and chair\n- En-suite or shared bathroom (varies by property)\n- Communal kitchen and lounge areas\n- Laundry facilities on site\n- Secure entry systems\n\nAPPLYING:\n- Apply online at: accom-online.shu.ac.uk\n- Apply as soon as you receive an offer from SHU\n- You do not need to sign contracts or pay deposit until results confirmed\n- List preferred properties in order — allocation based on preferences and availability\n\nSPECIALIST ACCOMMODATION:\n- Wheelchair-accessible rooms available\n- Quiet rooms / alcohol-free accommodation available\n- International student support in halls\n- Care leaver accommodation support (free first year accommodation)\n\nPAYING RENT:\n- With guarantor: pay in 3 instalments (October, January, April)\n- Without guarantor: may need to pay full year upfront\n- Deposit required at booking\n\nFor students not wishing to live in halls:\n- Sheffield Hallam Studentpad: shustudenthousing.co.uk\n- All listed properties accredited by Snug",
+      "source_url": "https://www.shu.ac.uk/study-here/accommodation",
+      "metadata": {
+        "category": "accommodation",
+        "subcategory": "halls",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0011",
+      "chunk_type": "accommodation",
+      "category": "accommodation",
+      "subcategory": "private_housing",
+      "title": "Private student housing in Sheffield",
+      "text": "Guide to private student accommodation in Sheffield (for non-halls students):\n\nBEST AREAS FOR STUDENTS:\n1. Broomhall / Broomhill (S3/S10) — most popular, 10–15 min walk to City Campus\n   Typical rent: £80–£110/week (shared house), £130–£160/week (studio)\n2. Ecclesall Road (S11) — vibrant, restaurants, bars, shops\n   Typical rent: £85–£115/week (shared house)\n3. Crookes / Walkley (S10) — quieter, slightly cheaper\n   Typical rent: £75–£100/week (shared house)\n4. Hunter's Bar (S11) — best for Collegiate Campus students\n   Typical rent: £80–£110/week (shared house)\n5. City Centre (S1) — most convenient but pricier\n   Typical rent: £130–£180/week (studio/flat)\n\nFINDING ACCOMMODATION:\n- SHU Studentpad: shustudenthousing.co.uk (accredited properties only)\n- Rightmove: rightmove.co.uk\n- SpareRoom: spareroom.co.uk\n- Zoopla: zoopla.co.uk\n- UniHomes: unihomes.co.uk\n\nNO UK GUARANTOR?\n- Housing Hand scheme: housinghand.co.uk (~£199–299/year)\n- SHU may have discount codes — ask at Hallam Help\n- Some landlords accept international guarantors or deposits in lieu\n\nTENANCY CHECKS:\n- SHU Students' Union free tenancy check: student.advice@hallamstudentsunion.com\n- Check for Snug accreditation label\n- Always get an inventory before moving in\n- Ensure you have a proper tenancy agreement (AST)\n\nCOUNCIL TAX:\n- Full-time students are EXEMPT from council tax\n- Request exemption certificate: MyHallam → Student Services → Council Tax Exemption\n- Submit to Sheffield City Council online or at Council offices\n\nUTILITIES:\n- Set up gas, electricity, water accounts if not included\n- Register on the electoral roll (doesn't affect student exemption)\n- Notify council tax office of all student occupants",
+      "source_url": "https://www.shu.ac.uk/study-here/accommodation/find-accommodation",
+      "metadata": {
+        "category": "accommodation",
+        "subcategory": "private_housing",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0012",
+      "chunk_type": "international",
+      "category": "international",
+      "subcategory": "visa",
+      "title": "UK Student visa — complete guide",
+      "text": "UK Student visa guide for Sheffield Hallam international students (March 2026):\n\nVISA TYPES:\n1. Student visa (main) — for courses over 6 months, degree-level and above\n   - Allows 5 years of study at degree level\n   - Allows 3 years below degree level\n   - Work rights included (see below)\n2. Short-term Student visa — English language courses 6–11 months only\n3. Visitor visa — courses up to 6 months, no work rights\n\nREQUIREMENTS FOR STUDENT VISA:\n- Confirmed place at SHU (conditional or unconditional offer)\n- CAS (Confirmation of Acceptance for Studies) number — SHU provides this after deposit paid\n- SHU Sponsor Licence Number: G5N8YGW40\n- Financial evidence: funds to cover fees + living costs (£1,334/month for studies outside London)\n- English language: UKVI-approved SELT test (IELTS for UKVI, Pearson PTE Academic UKVI, etc.)\n- Tuberculosis (TB) test certificate (if from a listed country — check gov.uk/tb-test-visa)\n- Immigration Health Surcharge (IHS): must be paid before visa — currently £776/year for students\n- Valid passport (at least 6 months validity beyond course end)\n- ATAS certificate (some postgraduate science/engineering/tech courses)\n\nVISA APPLICATION PROCESS:\n1. Receive unconditional offer + pay deposit\n2. SHU uploads your details to UKVI database\n3. SHU issues your CAS number (allow 2–4 weeks)\n4. Apply online at gov.uk/student-visa — earliest 6 months before course start\n5. Book and attend biometric appointment at local visa application centre\n6. Submit application (decision usually within 3 weeks, longer in busy periods)\n7. Receive eVisa — create eVisa account at gov.uk/evisa\n8. Generate 'Share Code' from eVisa account to prove right to study/travel\n\nWORK RIGHTS (Student visa):\n- Full-time degree-level studies: up to 20 hours/week during term time, full-time in vacations\n- Below degree level: up to 10 hours/week term time\n- Part-time courses: no work permitted\n- Placement years that are part of your course: may be worked full-time\n\nBRINGING DEPENDANTS:\n- Only for PhD and research-based higher degree students\n- Partner and children under 18 can come as dependants\n- MRes degrees do NOT qualify for dependants\n\nAFTER GRADUATION:\n- Graduate Visa (post-study work): 2 years to live and work in UK after graduation (3 years for PhD)\n- Apply before your Student visa expires\n- No job offer needed\n- Contact: International Experience team workshops for guidance\n\nFor urgent visa help: hallamhelp@shu.ac.uk",
+      "source_url": "https://www.shu.ac.uk/study-here/international/prearrival-and-visas",
+      "metadata": {
+        "category": "international",
+        "subcategory": "visa",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0013",
+      "chunk_type": "international",
+      "category": "international",
+      "subcategory": "english_requirements",
+      "title": "English language requirements",
+      "text": "English language requirements for Sheffield Hallam University (verified March 2026):\n\nIELTS (most common):\n- Undergraduate: typically IELTS 6.0 overall (minimum 5.5 in each skill)\n- Postgraduate taught: typically IELTS 6.5 overall (minimum 6.0 in each skill)\n- Some courses (nursing, social work, law) require higher: IELTS 7.0\n- Health programmes: check individual course pages\n\nEQUIVALENT ACCEPTED TESTS:\n- IELTS for UKVI (required for visa purposes if applying from outside UK)\n- Pearson PTE Academic UKVI\n- Cambridge B2 First, C1 Advanced, C2 Proficiency\n- Trinity ISE (some courses)\n- TOEFL iBT (scores vary by course)\n\nPRE-SESSIONAL ENGLISH:\n- Available at SHU for students who need to improve English before their course\n- Duration: 5 weeks, 10 weeks, or 15 weeks (summer programmes)\n- On successful completion, students can join their main course without retaking IELTS\n- Location: Sheffield Hallam, City Campus\n- Apply through the main SHU admissions process\n\nENGLISH LANGUAGE SUPPORT DURING STUDIES:\n- Academic English skills workshops\n- Writing support\n- Online resources via MyHallam\n- International student language support: english.language@shu.ac.uk\n\nEXEMPTIONS:\n- Students from majority English-speaking countries may be exempt\n- Students who completed previous degree taught entirely in English (in the UK) may be exempt\n- Check individual course pages or contact admissions",
+      "source_url": "https://www.shu.ac.uk/study-here/international/english-language-support",
+      "metadata": {
+        "category": "international",
+        "subcategory": "english_requirements",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0014",
+      "chunk_type": "international",
+      "category": "international",
+      "subcategory": "nhs_registration",
+      "title": "NHS registration — step-by-step guide",
+      "text": "How international students register with the NHS at Sheffield Hallam (March 2026):\n\nIMMIGRATION HEALTH SURCHARGE (IHS):\n- Must be paid as part of your Student visa application\n- Current rate: £776/year for students\n- Entitles you to full NHS treatment (same as UK residents)\n- Check your IHS payment on your eVisa\n\nREGISTERING WITH A GP (Doctor):\nRecommended GP surgeries near SHU campuses:\n\nNear City Campus:\n1. University Health Centre, 80 Matilda Street, S1 4QF — Tel: 0114 272 1208\n   (SHU-linked, recommended for students)\n2. Broad Lane Health Centre, 3 Broad Lane, S1 3PL (walk-in also available)\n\nNear Collegiate Campus:\n3. Broomhill Medical Centre, 76 Glossop Road, S10 2GW — Tel: 0114 266 1215\n4. Devonshire Medical Practice, 22 Devonshire Street, S3 7SF\n\nHOW TO REGISTER:\n1. Visit your chosen GP surgery in person (or check if online registration available)\n2. Bring: Passport, BRP (Biometric Residence Permit), proof of address (e.g. halls letter or utility bill)\n3. Complete GMS1 registration form at the surgery\n4. Download NHS App (search \"NHS App\" in app stores) — book appointments, order prescriptions\n\nEMERGENCY AND URGENT CARE:\n- 999: life-threatening emergencies (ambulance, police, fire)\n- 111: non-emergency urgent medical advice (24/7, free) — call or visit 111.nhs.uk\n- A&E (24/7):\n  - Royal Hallamshire Hospital: Glossop Road, S10 2JF — Tel: 0114 271 1900\n  - Northern General Hospital: Herries Road, S5 7AU — Tel: 0114 243 4343\n- Walk-in Centre: Broad Lane Health Centre, open daily without appointment\n\nDENTAL CARE:\n- NHS dental treatment: register with an NHS dentist — search at nhs.uk/find-a-dentist\n- Emergency dental: Sheffield Dental Hospital, 31 Claremont Crescent, S10 2TA — Tel: 0114 271 7800\n\nMENTAL HEALTH:\n- SHU Wellbeing Services: 0114 225 3333\n- Sheffield Talking Therapies (free NHS therapy): 0114 226 2955\n- Samaritans (24/7): 116 123\n\nPRESCRIPTIONS:\n- Standard NHS prescription charge: £9.90 per item (2025/26)\n- Full-time students under 19: free prescriptions\n- Prepayment certificate (PPC): £111.60/year if you need multiple prescriptions",
+      "source_url": "https://www.shu.ac.uk/study-here/international/healthcare",
+      "metadata": {
+        "category": "international",
+        "subcategory": "nhs_registration",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0015",
+      "chunk_type": "international",
+      "category": "international",
+      "subcategory": "ni_number",
+      "title": "National Insurance number — guide for students",
+      "text": "National Insurance (NI) number guide for Sheffield Hallam students working in the UK (March 2026):\n\nWHAT IS A NI NUMBER?\n- Your unique identifier for the UK tax and benefits system (format: XX 12 34 56 X)\n- Required to work legally and pay the correct tax and National Insurance contributions\n- You can start work without it but MUST apply immediately on arrival\n\nHOW TO APPLY:\nOnline (fastest, recommended):\n1. Go to: gov.uk/apply-national-insurance-number\n2. Create or log into your Government Gateway account\n3. Complete the online form (passport details, address, reason for applying)\n4. You may be invited to a telephone or online interview\n5. NI number arrives by post: 2–4 weeks\n\nBy phone (if online not available):\n- Call: 0800 141 2075 (free, Mon–Fri 8am–6pm)\n\nDOCUMENTS NEEDED:\n- Valid passport\n- BRP (Biometric Residence Permit) or eVisa share code\n- UK address (halls of residence letter accepted)\n- SHU enrolment letter (request via MyHallam → Student Services → Enrollment Letter — takes 3–5 working days)\n\nWORK LIMITS (Student visa):\n- Full-time degree-level courses: 20 hours maximum per week during term time, unlimited during vacations\n- Below degree level: 10 hours per week during term time\n- Check: SHU academic calendar for term dates (usually September–May with 3 vacation periods)\n- Penalty for exceeding work limits: visa curtailment\n\nTAX:\n- If you earn over the personal allowance (£12,570/year in 2025/26), income tax applies\n- As a student working part-time you usually won't exceed this\n- Complete starter checklist P46 with your employer when starting work\n- If you overpay tax, claim a refund from HMRC at gov.uk/claim-tax-refund",
+      "source_url": "https://www.gov.uk/apply-national-insurance-number",
+      "metadata": {
+        "category": "international",
+        "subcategory": "ni_number",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0016",
+      "chunk_type": "international",
+      "category": "international",
+      "subcategory": "banking",
+      "title": "UK bank account guide for SHU students",
+      "text": "UK bank account guide for Sheffield Hallam international students (March 2026):\n\nDOCUMENTS NEEDED (all banks):\n- Valid passport\n- BRP (Biometric Residence Permit) — collected after arrival\n- UK address proof: halls of residence welcome letter, or utility bill\n- SHU enrolment letter (request via MyHallam → Student Services, takes 3–5 working days)\n\nFASTEST OPTION — App-only banks (recommended for international students):\n1. Monzo (monzo.com): Open same day with passport + selfie + UK address. No branch needed.\n2. Starling Bank (starlingbank.com): Same-day online opening, excellent international transfers.\n\nBoth require only smartphone + passport + UK address proof. No branch visit needed.\n\nHIGH STREET BANKS (take longer but may be preferred):\n3. Barclays — has student account, branch on Fargate (City Centre, 5 min from City Campus)\n4. HSBC — student account with overdraft, branch on Fargate, Sheffield\n5. NatWest — student account, branch on Leopold Street, Sheffield\n6. Lloyds Bank — student account with overdraft facility\n7. Santander — 123 Student Account with cashback benefits\n\nHIGH STREET BANK TIPS:\n- Book an appointment online BEFORE visiting the branch\n- Bring ALL documents (some banks require both proof of address AND enrolment letter)\n- Processing can take 1–3 weeks after application\n\nFOR INTERNATIONAL TRANSFERS:\n- Wise (wise.com): 5–8x cheaper than banks for sending money home or receiving money from abroad\n- Revolut: good for multiple currencies\n- Avoid using your UK bank for international transfers — fees are very high\n\nWELCOME WEEK:\n- SHU International Office runs bank account drop-in sessions during Welcome Week in September\n- Check MyHallam for dates and times",
+      "source_url": "https://www.shu.ac.uk/study-here/international",
+      "metadata": {
+        "category": "international",
+        "subcategory": "banking",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0017",
+      "chunk_type": "international",
+      "category": "international",
+      "subcategory": "arrival_checklist",
+      "title": "International student arrival checklist",
+      "text": "Complete checklist for international students arriving at Sheffield Hallam University:\n\nBEFORE LEAVING HOME:\n□ Valid passport (at least 6 months beyond course end)\n□ Student visa / eVisa share code printed or screenshot\n□ CAS number noted\n□ Travel insurance arranged\n□ Accommodation booking confirmation\n□ SHU offer letter printed\n□ Financial evidence (bank statements, scholarship letter)\n□ Academic qualifications and transcripts\n□ Medical records / vaccinations list\n□ Sufficient funds for first month (approx. £1,500 recommended)\n\nON ARRIVAL IN UK:\n□ Collect BRP (Biometric Residence Permit) from Post Office — letter sent to SHU accommodation address within 10 days of arrival\n□ Report to SHU International Experience team\n□ Attend Welcome Week induction (check email for schedule)\n□ Register with a GP (doctor) — see NHS guide\n□ Apply for NI number (if planning to work)\n□ Open a UK bank account\n\nWEEK 1 AT SHU:\n□ Collect student ID card from Hallam Help desk (Owen Building, City Campus)\n□ Set up MyHallam account (myhallam.shu.ac.uk)\n□ Activate your SHU student email (@student.shu.ac.uk)\n□ Register for modules on MyHallam\n□ Attend departmental induction\n□ Explore campus libraries and student services\n\nCONTACTS:\n- International Experience Team: international.experience@shu.ac.uk\n- Hallam Help: hallamhelp@shu.ac.uk or 0114 225 4321 (Mon–Fri 9am–5pm)\n- Out of hours emergency (security): 0114 225 4444\n- NHS 111: 111 (urgent medical advice)\n- Emergency: 999",
+      "source_url": "https://www.shu.ac.uk/welcome/prepare/international-arrivals",
+      "metadata": {
+        "category": "international",
+        "subcategory": "arrival_checklist",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0018",
+      "chunk_type": "support",
+      "category": "student_support",
+      "subcategory": "wellbeing",
+      "title": "Student wellbeing and mental health support",
+      "text": "Sheffield Hallam University student wellbeing and support services (March 2026):\n\nSHU WELLBEING SERVICES:\n- Counselling and psychotherapy: free, confidential, short-term counselling for all students\n- Mental health support: specialist mental health advisers\n- Phone: 0114 225 3333\n- Email: wellbeing@shu.ac.uk\n- Access: self-refer via MyHallam → Support at Hallam → Wellbeing\n- Out of hours: text SHOUT to 85258 (free, 24/7 mental health text support)\n\nNHS MENTAL HEALTH (Sheffield):\n- Sheffield Talking Therapies: free NHS talking therapies for anxiety and depression\n  Phone: 0114 226 2955 | Website: sheffieldtalkingterapies.nhs.uk\n- Samaritans (24/7): 116 123 (free, anonymous)\n- Crisis line: if you are in immediate danger, call 999\n\nSTUDENT ADVICE SERVICE (Students' Union):\n- Free, independent, confidential advice\n- Housing, academic issues, finances, welfare\n- Email: student.advice@hallamstudentsunion.com\n- Location: Students' Union building, City Campus\n\nDISABILITY AND ADDITIONAL NEEDS:\n- Disabled Student Support: specialist assessments, adjustments, equipment\n- Deaf/hard of hearing, blind/visually impaired, physical disabilities, autism, chronic illness\n- Apply for Disabled Students' Allowance (DSA): up to £26,291/year from Student Finance\n- Contact: disabledstudenthallam@shu.ac.uk | 0114 225 2222\n\nACADEMIC SUPPORT:\n- Academic Skills Centre: writing, maths, referencing, study skills\n- Drop-in sessions and workshops — check MyHallam for schedule\n- Peer mentoring: supported by trained student mentors in many departments\n\nFINANCIAL HARDSHIP:\n- Financial Support Fund: emergency grants for students in financial difficulty\n- Food bank access information available from Hallam Help\n- Emergency loans (interest-free, short term)\n- Contact: hallam.help@shu.ac.uk\n\nINTERNATIONAL STUDENT SUPPORT:\n- International Experience Team: dedicated support for international students\n- Pre-arrival guidance, visa advice, cultural integration support\n- Email: international.experience@shu.ac.uk\n- Based at City Campus Student Services\n\nMATURE, CARER, AND CARE LEAVER SUPPORT:\n- Specialist support workers for students with caring responsibilities\n- Care Leaver Package: free accommodation in first year, bursary, named support worker\n- Contact Hallam Help for referral",
+      "source_url": "https://www.shu.ac.uk/study-here/student-life/support",
+      "metadata": {
+        "category": "student_support",
+        "subcategory": "wellbeing",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0019",
+      "chunk_type": "support",
+      "category": "student_support",
+      "subcategory": "careers",
+      "title": "Careers and employability services",
+      "text": "Sheffield Hallam University careers and employability support (March 2026):\n\nGRADUATE OUTCOMES:\n- 95% of SHU graduates in work or further study within 15 months of graduating\n- 94% of UK graduates employed or in further study (Graduate Outcomes Survey 2022/23)\n- SHU is ranked among the top UK universities for graduate employment\n\nCAREERS SERVICE (available to all students and graduates):\n- Location: City Campus, Owen Building\n- Phone: 0114 225 3900\n- Email: careers@shu.ac.uk\n- MyHallam → Careers → Book appointment\n\nServices offered:\n- 1:1 career coaching appointments\n- CV and cover letter reviews\n- Mock interviews\n- Job search support\n- LinkedIn profile advice\n- Graduate scheme guidance\n\nEMPLOYER PARTNERSHIPS:\nAcross all subject areas, SHU has links with major employers including:\n- Computing: IBM, Intel, SkyBet, HSBC, Walt Disney, NHS Digital\n- Engineering: Boeing, Rolls Royce, Network Rail, Siemens, Arup\n- Business: Deloitte, PwC, KPMG, various SMEs\n- Health: NHS Trusts throughout Yorkshire and the Humber\n- Law: Irwin Mitchell, DLA Piper, Legal Aid organisations\n\nPLACEMENT SUPPORT:\n- Many courses include optional or compulsory placement years (40–52 weeks)\n- Placement team helps source, apply for and manage work placements\n- Placement year fee: maximum 20% of standard annual fee\n- Some programmes: mandatory 60-week clinical placement (nursing, midwifery)\n\nVOLUNTEERING:\n- SHU students complete 30,000+ volunteer hours per year\n- SHU Volunteering Hub: volunteering.shu.ac.uk\n- Counts towards the Hallam Award (employability recognition)\n\nHALLAM AWARD:\n- SHU's graduate employability recognition scheme\n- Recognises work experience, volunteering, societies, sport, study abroad\n- Endorsed by employers, appears on degree certificate supplement\n- Sign up via MyHallam\n\nPOST-GRADUATION ACCESS:\n- All career services remain accessible for 5 years after graduation",
+      "source_url": "https://www.shu.ac.uk/study-here/careers",
+      "metadata": {
+        "category": "student_support",
+        "subcategory": "careers",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0020",
+      "chunk_type": "student_life",
+      "category": "student_life",
+      "subcategory": "clubs_societies",
+      "title": "Clubs, societies and Students' Union",
+      "text": "Sheffield Hallam Students' Union (SU) and student activities (March 2026):\n\nHALLAM STUDENTS' UNION:\n- Website: hallamstudentsunion.com\n- New HQ opening 2025/26: heart of City Campus, with café, events space, merch shop, giant screen\n- Services: student advice, representation, clubs and societies, events, welfare\n\nCLUBS AND SOCIETIES (80+ options):\nCategories include:\n- Academic societies (by subject area)\n- Cultural and international societies (Indian, Nigerian, Chinese, Caribbean, etc.)\n- Faith societies (Islamic, Christian, Jewish, Hindu, Buddhist, etc.)\n- Hobby and interest (film, gaming, coding, art, music, theatre)\n- Political and campaigning (student government, activism)\n- Volunteering and charity\n\nSPORTS CLUBS (40+):\n- Team Hallam competes in the BUCS (British Universities and Colleges Sport) leagues nationally\n- Sports include: football, rugby, cricket, basketball, netball, badminton, tennis, swimming, rowing, cycling, martial arts, boxing, climbing, and many more\n- Try-outs and taster sessions at the start of each semester\n\nSPORT AND FITNESS FACILITIES:\n- Sport Hallam gym: City Campus (Brincliffe Edge Road) and Collegiate Campus\n- Membership: discounted for SHU students\n- Classes: yoga, spin, HIIT, pilates, and more included with membership\n- Outdoor sports: cricket pitch, astroturf football pitches\n- Peak District access: SHU outdoor society, cycling society, hiking clubs\n\nEVENTS:\n- Welcome Week (September): fairs, club nights, campus tours, new student events\n- Student Union events throughout year: live music, quiz nights, film screenings\n- Annual varsity sports competitions\n\nVOLUNTEERING:\n- 30,000+ student volunteer hours logged per year\n- SHU Volunteering: volunteering.shu.ac.uk",
+      "source_url": "https://www.shu.ac.uk/study-here/student-life/clubs-and-societies",
+      "metadata": {
+        "category": "student_life",
+        "subcategory": "clubs_societies",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0021",
+      "chunk_type": "student_life",
+      "category": "student_life",
+      "subcategory": "cost_of_living",
+      "title": "Cost of living guide for Sheffield students",
+      "text": "Cost of living guide for Sheffield Hallam students (2025/26 estimates):\n\nMONTHLY BUDGET ESTIMATES:\nBudget student (halls + careful spending): £900–£1,100/month\nAverage student (private house): £1,000–£1,300/month\nComfortable student (city centre flat): £1,300–£1,600/month\n\nACCOMMODATION (per week, 2025/26):\n- SHU halls (cheapest): from £81/week\n- SHU halls (average): £120–£140/week\n- SHU halls (premium en-suite): up to £185/week\n- Private shared house: £75–£110/week\n- Private studio: £130–£180/week\nAll SHU halls include bills. Private houses usually separate.\n\nFOOD AND DRINK (per month):\n- Groceries (budget supermarkets: Aldi, Lidl nearby): £100–£150\n- Campus food: meals from £3.50 (meal deals), full meal approx. £6–£8\n- Eating out in Sheffield: main course £8–£15, pizza £10–£13\n- Coffee on campus: approx. £2.50–£3.20\n\nTRANSPORT (per month):\n- Walking distance to campus from most student areas: FREE\n- Supertram day ticket: approx. £3\n- Travelmaster monthly bus + tram pass: approx. £52\n- 16–25 Railcard: £30/year (saves 1/3 on all rail fares)\n\nUTILITIES (if private house, per month):\n- Gas + electricity: £50–£80/month shared (varies)\n- Water: £20–£30/month shared\n- Wi-Fi broadband: £25–£40/month shared (or include in bills package)\n\nSTUDENT DISCOUNTS:\n- TOTUM / NUS Extra card: access to hundreds of UK discounts\n- UNiDAYS (free): student deals on clothing, tech, food\n- Student Beans (free): online student discounts\n- Apps: Too Good To Go (discounted food near closing time)\n\nPART-TIME WORK:\n- Sheffield students average £223/month from part-time work (NatWest 2022)\n- On campus jobs: library, catering, events, student ambassador\n- JobShop: studentjobs.shu.ac.uk (SHU's internal job board)",
+      "source_url": "https://www.shu.ac.uk/study-here/student-life/cost-of-living",
+      "metadata": {
+        "category": "student_life",
+        "subcategory": "cost_of_living",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    },
+    {
+      "chunk_id": "s0022",
+      "chunk_type": "contacts",
+      "category": "contacts",
+      "subcategory": "key_contacts",
+      "title": "Key contacts and numbers at SHU",
+      "text": "Sheffield Hallam University key contacts (March 2026):\n\nGENERAL ENQUIRIES:\n- Main switchboard: +44 (0)114 225 5555\n- General email: enquiries@shu.ac.uk\n- Address: City Campus, Howard Street, Sheffield, S1 1WB\n\nSTUDENT SERVICES (Hallam Help):\n- Phone: 0114 225 4321 (Mon–Fri 9am–5pm)\n- Email: hallamhelp@shu.ac.uk\n- Location: Owen Building, City Campus (ground floor)\n- Online: hallamhelp.shu.ac.uk (MyHallam portal)\n\nADMISSIONS:\n- Undergraduate: 0114 225 5555\n- Postgraduate: pg.admissions@shu.ac.uk\n- International admissions: international.admissions@shu.ac.uk\n\nINTERNATIONAL STUDENTS:\n- International Experience Team: international.experience@shu.ac.uk\n- Visa / immigration advice: immigration.adviser@shu.ac.uk\n\nACCOMMODATION:\n- Accommodation office: accommodation@shu.ac.uk\n- Online applications: accom-online.shu.ac.uk\n\nFINANCE:\n- Student Finance Team: studentfinance@shu.ac.uk\n- Scholarship enquiries: funding@shu.ac.uk\n\nWELLBEING & SUPPORT:\n- Wellbeing Services: wellbeing@shu.ac.uk | 0114 225 3333\n- Disability Support: disabledstudenthallam@shu.ac.uk | 0114 225 2222\n- Careers: careers@shu.ac.uk | 0114 225 3900\n\nSECURITY (24 hours):\n- Emergency (on-campus): 0114 225 4444\n- Non-emergency security: 0114 225 2012\n\nSTUDENTS' UNION:\n- Website: hallamstudentsunion.com\n- Student advice: student.advice@hallamstudentsunion.com\n\nEMERGENCY SERVICES (Sheffield):\n- Emergency: 999\n- NHS urgent care: 111\n- Royal Hallamshire Hospital A&E: 0114 271 1900\n- Northern General Hospital A&E: 0114 243 4343\n- Police non-emergency: 101\n\nSOCIAL MEDIA:\n- Instagram: @sheffhallamuni\n- Facebook: /sheffieldhallamuniversity\n- YouTube: /sheffieldhallamuni",
+      "source_url": "https://www.shu.ac.uk/contact-us",
+      "metadata": {
+        "category": "contacts",
+        "subcategory": "key_contacts",
+        "source": "shu.ac.uk / gov.uk / verified",
+        "target_audience": "all",
+        "confidence": "high",
+        "last_verified": "March 2026"
+      }
+    }
+  ]
+}
