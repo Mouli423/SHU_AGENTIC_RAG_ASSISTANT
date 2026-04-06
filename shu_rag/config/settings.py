@@ -21,7 +21,7 @@ NORMALIZE_EMBEDDINGS   = True
 AWS_REGION             = "us-east-1"
 QUERY_MODEL_ID         = "amazon.nova-lite-v1:0"
 GENERATOR_MODEL_ID     = "amazon.nova-lite-v1:0"
-GENERATOR_TEMPERATURE  = 0.3
+GENERATOR_TEMPERATURE  = 0.1
 
 # ── Reranker ──────────────────────────────────────────────────────────────────
 RERANKER_MODEL         = "cross-encoder/ms-marco-MiniLM-L-6-v2"

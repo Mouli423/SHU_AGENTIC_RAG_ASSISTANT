@@ -15,7 +15,7 @@ from datasets import Dataset
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from ragas import evaluate
-from ragas.metrics.collections import (
+from ragas.metrics import (
     Faithfulness,
     AnswerRelevancy,
     ContextPrecision,
@@ -41,59 +41,112 @@ from shu_rag.config.settings import DEFAULT_K, RAGAS_SAMPLE_SIZE, RAGAS_OUTPUT_F
 TEST_SET = [
     {
         "question": "What is the UCAS code for BSc Computer Science at Sheffield Hallam University?",
-        "ground_truth": "The UCAS code for BSc (Honours) Computer Science at Sheffield Hallam University is G400.",
+        "ground_truth": (
+            "The UCAS code for BSc (Honours) Computer Science at Sheffield Hallam University is G400. "
+            "The course is offered full-time at City Campus with entry requirements of 112-120 UCAS points. "
+            "The UK tuition fee is £9,790 per year and the international fee is £18,000 per year. "
+            "A placement year is available. Highlights include gaining skills to write software for diverse "
+            "industries, developing understanding of AI, robotics and machine learning, and benefiting from "
+            "connections with employers such as IBM, Intel, Next and HSBC."
+        ),
     },
     {
         "question": "What are the UK tuition fees for the MSc Artificial Intelligence course?",
-        "ground_truth": "The UK tuition fee for MSc Artificial Intelligence at Sheffield Hallam University is £10,940 for the course.",
+        "ground_truth": (
+            "The UK tuition fee for MSc Artificial Intelligence at Sheffield Hallam University is £10,940 "
+            "for the course. The international fee is £18,600 for the course. The course is full-time, "
+            "located at City Campus. It does not include a placement year. Highlights include studying "
+            "modern AI practices, theories, techniques and ethical considerations, developing problem-solving "
+            "skills by applying AI methods, and cultivating a substantial portfolio of commercial-quality work."
+        ),
     },
     {
         "question": "Does the MSc Artificial Intelligence course offer a placement year?",
         "ground_truth": (
-            "The standard MSc Artificial Intelligence does not include a placement year. "
-            "However, the MSc Artificial Intelligence (Work Experience) variant does include a placement."
+            "The standard MSc Artificial Intelligence at Sheffield Hallam University does not include a "
+            "placement year (Placement: No). However, the MSc Artificial Intelligence (Work Experience) "
+            "variant does include a placement year (Placement: Yes). The Work Experience variant costs "
+            "£12,440 for the course (UK) and £20,100 (international), compared to £10,940 (UK) and "
+            "£18,600 (international) for the standard course. Both are full-time and located at City Campus."
         ),
     },
     {
-        "question": "What are the compulsory modules in year 1 of BSc Computer Science?",
+        "question": "What are the compulsory modules in BSc Computer Science at Sheffield Hallam?",
         "ground_truth": (
-            "Year 1 compulsory modules for BSc Computer Science include "
-            "Foundations in Computing 1, Foundations in Computing 2, and Study Skills for Computing Students."
+            "Compulsory modules for BSc (Honours) Computer Science at Sheffield Hallam University include: "
+            "Databases and the Web (20 credits, Coursework 100%) — covers creating dynamic websites underpinned "
+            "by databases; Mathematics for Computer Science (20 credits, Coursework 100%) — introduces discrete "
+            "mathematics and numerical skills; Programming for Computer Science (20 credits, Coursework 100%) — "
+            "provides an introduction to computer programming and object-oriented concepts. "
+            "All modules are assessed 100% by coursework."
         ),
     },
     {
         "question": "How can I apply for student accommodation at Sheffield Hallam University?",
         "ground_truth": (
-            "You can apply for accommodation online at accom-online.shu.ac.uk. "
-            "All full-time undergraduate students who firm SHU as their first choice are guaranteed "
-            "an offer of halls accommodation in their first year."
+            "Sheffield Hallam University offers 11 halls of residence properties, all within walking distance "
+            "of both campuses. All full-time undergraduate students who firm SHU as their first choice are "
+            "guaranteed an offer of accommodation in halls for their first year. Weekly prices range from "
+            "£81 to £185 per week (2025/26). All bills are included — gas, electricity, water, Wi-Fi, and "
+            "contents insurance. There is 24-hour security and a residential support team. "
+            "Applications open for September 2026 entry. You can apply online at accom-online.shu.ac.uk."
         ),
     },
     {
         "question": "What are the entry requirements for BSc Data Science at Sheffield Hallam?",
-        "ground_truth": "The entry requirements for BSc Data Science at Sheffield Hallam are 112–120 UCAS points.",
+        "ground_truth": (
+            "The entry requirements for BSc (Honours) Data Science at Sheffield Hallam University are "
+            "112-120 UCAS points. The UCAS code is BB35. The course is full-time, 3 or 4 years duration, "
+            "located at City Campus. The UK tuition fee is £9,790 per year and international fee is "
+            "£18,000 per year. A placement year is available. Highlights include designing innovative "
+            "systems using data science, harnessing AI and data mining to extract insights from large "
+            "datasets, and gaining skills in programming and cloud computing."
+        ),
     },
     {
         "question": "What campus is the Computer Science degree taught at?",
-        "ground_truth": "The BSc Computer Science degree at Sheffield Hallam University is taught at City Campus.",
+        "ground_truth": (
+            "The BSc (Honours) Computer Science degree at Sheffield Hallam University is taught at "
+            "City Campus, located at Howard Street, Sheffield, S1 1WB. The course is full-time with "
+            "a UCAS code of G400, entry requirements of 112-120 UCAS points, UK fee of £9,790 per year, "
+            "and a placement year option."
+        ),
     },
     {
         "question": "How do I contact the admissions team at Sheffield Hallam University?",
         "ground_truth": (
-            "You can contact Sheffield Hallam University admissions by calling +44 (0)114 225 5555 "
-            "or emailing enquiries@shu.ac.uk. Postgraduate admissions can be reached at pg.admissions@shu.ac.uk."
+            "To contact Sheffield Hallam University: "
+            "General enquiries — main switchboard: +44 (0)114 225 5555, email: enquiries@shu.ac.uk, "
+            "address: City Campus, Howard Street, Sheffield, S1 1WB. "
+            "Student Services (Hallam Help) — phone: 0114 225 4321 (Mon–Fri 9am–5pm), "
+            "email: hallamhelp@shu.ac.uk, online: hallamhelp.shu.ac.uk. "
+            "Undergraduate admissions: 0114 225 5555. "
+            "Postgraduate admissions: pg.admissions@shu.ac.uk. "
+            "International admissions: international.admissions@shu.ac.uk."
         ),
     },
     {
         "question": "What are the fees for BSc Nursing (Adult) at Sheffield Hallam?",
-        "ground_truth": "The UK tuition fee for BSc Nursing (Adult) at Sheffield Hallam University is £7,155 per year.",
+        "ground_truth": (
+            "The UK tuition fee for BSc (Honours) Nursing (Adult) at Sheffield Hallam University is "
+            "£7,155 per year. The course is part-time, located at City Campus. Highlights include "
+            "gaining the knowledge and skills to provide compassionate nursing care, developing a strong "
+            "professional identity, and entering highly skilled employment. The course is in the "
+            "nursing-and-midwifery subject area."
+        ),
     },
     {
         "question": "Tell me about Sheffield Hallam University.",
         "ground_truth": (
-            "Sheffield Hallam University is one of the UK's largest universities, founded in 1843 "
-            "and located in Sheffield. It has approximately 34,000 students, a Gold TEF rating, "
-            "and a 95% graduate employment rate."
+            "Sheffield Hallam University (SHU) is one of the UK's largest universities, located in "
+            "Sheffield, South Yorkshire. Key facts: Founded in 1843 as the Sheffield School of Design, "
+            "gained university status in 1992. Approximately 34,000 students including 5,000+ international "
+            "students, and around 4,000 staff. TEF Rating: Gold (2023 Teaching Excellence Framework). "
+            "QS Stars: 5-Star Excellence Rating. Ranked in the Top 10 UK student cities (Uni Compare 2025). "
+            "95% of graduates are in work or further study within 15 months (Graduate Outcomes Survey 2022/23). "
+            "UCAS institution code: S21. Two main campuses: City Campus at Howard Street, Sheffield S1 1WB, "
+            "and Collegiate Campus at Psalter Lane, Sheffield S11 8UZ. "
+            "General enquiries: +44 (0)114 225 5555 or enquiries@shu.ac.uk."
         ),
     },
 ]
@@ -168,10 +221,10 @@ def run_evaluation(dataset: Dataset, generator_llm, embeddings) -> pd.DataFrame:
     results = evaluate(
         dataset=dataset,
         metrics=[
-            Faithfulness(ragas_llm),
-            AnswerRelevancy(ragas_llm),
-            ContextPrecision(ragas_llm),
-            ContextRecall(ragas_llm),
+            Faithfulness(),
+            AnswerRelevancy(),
+            ContextPrecision(),
+            ContextRecall(),
         ],
         llm=ragas_llm,
         embeddings=ragas_embeddings,
